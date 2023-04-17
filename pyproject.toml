@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "bonding-curve-models"
+version = "0.1.0"
+description = "Collection of Bonding Curve Models."
+authors = ["Shawn Anderson <shawn@longtailfinancial.com>"]
+readme = "README.md"
+packages = [{include = "bonding_curve_models"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.0"
+numpy = "^1.24.2"
+hvplot = "^0.8.3"
+param = "^1.13.0"
+panel = "^0.14.4"
+jupyterlab = "3.6.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
