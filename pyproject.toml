@@ -14,6 +14,7 @@ hvplot = "^0.8.3"
 param = "^1.13.0"
 panel = "^0.14.4"
 jupyterlab = "3.6.3"
+pyparsing = "^3.0.9"
 
 
 [build-system]
