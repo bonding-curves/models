@@ -15,6 +15,9 @@ param = "^1.13.0"
 panel = "^0.14.4"
 jupyterlab = "3.6.3"
 pyparsing = "^3.0.9"
+gmpy2 = "^2.1.5"
+curvesim = "^0.3.0"
+tabulator = "^1.53.5"
 
 
 [build-system]
